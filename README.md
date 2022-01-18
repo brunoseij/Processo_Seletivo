@@ -30,3 +30,5 @@ Ao final do caminho, é possível adicionar /id para acessar um item específico
 
 Ao acessar um item especifico de uma API, é possível utilizar os quatro verbos HTTP propostos (GET, PUT, PATCH, DELETE).
 
+Por padrão é utilizada a porta 8000, porém poderá variar.
+
