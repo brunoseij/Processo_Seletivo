@@ -3,7 +3,7 @@
 RESTful API proposta no processo seletivo da Frexco.
 
 ## Dependências
-- Django 4.0.1
+- django 4.0.1
 - djangorestframework 3.13.1
 - django-cors-headers 3.11.0
 
@@ -11,9 +11,13 @@ RESTful API proposta no processo seletivo da Frexco.
 
 Foi criada uma aplicação com duas API's, uma para a tabela das Frutas e outra para as Regiões. Sendo que dentro da tabela das frutas existe uma ForeignKey ligando à tabela das regiões.
 
-Como virtual environment foi utilizado o pipenv, que deve ser iniciado pelo comando: 
+Como virtual environment, foi utilizado o pipenv, que deve ser iniciado pelo comando: 
 
 	pipenv shell
+
+Para instalar as dependências:
+
+	pipenv install django djangorestframework django-cors-headers
 
 Para iniciar a API, dentro da pasta que contém o arquivo manage.py, pelo terminal, deve-se rodar o comando:
 
