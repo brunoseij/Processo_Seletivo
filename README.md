@@ -17,7 +17,7 @@ Como virtual environment foi utilizado o pipenv, que deve ser iniciado pelo coma
 
 Para iniciar a API, dentro da pasta que contém o arquivo manage.py, pelo terminal, deve-se rodar o comando:
 
-	python manage.py runserver.
+	python manage.py runserver
 
 Para utilizar a API, é necessário acessar através de um navegador (ou alguma ferramenta para testar API's como o Postman) as URLs:
 
